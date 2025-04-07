@@ -1,0 +1,38 @@
+Project: Custom CRM System
+Tech Stack:
+Language: Python
+Database: SQLite (via SQLAlchemy)
+Backend Framework: FastAPI
+
+Overview
+Design a lightweight, custom Customer Relationship Management (CRM) system. The system should allow users to manage customers—add, review, delete records, and track history.
+
+Functional Requirements
+    Add Customer – Add new customer details into the system.
+
+    Remove Customer – Delete customer records.
+
+    Search History – Track and search through changes or interactions with customers.
+
+    Save Customer – Persist customer data to the database.
+
+Non-Functional Requirements
+    Scalability
+
+        The system should support multiple users accessing it simultaneously.
+
+    Security
+
+        Customer data must be stored securely (consider hashing sensitive data, HTTPS, etc.).
+
+    Data Integrity / Interoperability
+
+        The system should support integration with third-party systems or export/import functionality.
+
+    Accessibility
+
+        The application must be accessible via a web interface.
+
+    Architecture
+
+        Backend powered by FastAPI with database interactions handled via SQLAlchemy and SQLite

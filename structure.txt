@@ -1,0 +1,22 @@
+crm_project/
+├── backend/
+│   | main.py
+│   |-routes\
+|   |--\customer.py         #API end points
+|   |-models\
+|   |---\customer.py        #sql customer models    
+│   |-schemas\             # Pydantic schemas
+|   |---\customer.py
+│   |-crud\                 #operation DB
+|   |---\customer.py
+│   | database.py
+│   
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   ├── index.html
+│   └── package.json
+├── static/              
+├── requirements.txt
+├── README.md
+

@@ -1,0 +1,16 @@
+table Customer 
+    id              integer
+    fist name       string
+    last name       string
+    email           string
+    phone           string
+    created date    Date
+
+table CustomerHistory
+    id                          integer
+    customer_ID(Customer_ID)    integer
+    action                      String ( created, deleted, edited)
+    timeStamp                   action date
+    note                        any user comment
+
+relation: 1 customer can have many customerHistory

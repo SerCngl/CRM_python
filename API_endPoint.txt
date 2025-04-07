@@ -1,0 +1,6 @@
+GET (all)       /customer                       list all customer
+POST            /customer                       add new customer
+GET (id)        /customer/{id}                  list id customer
+DELETE (id)     /customer/{id}                  delete id customer
+//history       
+GET             /customer/{id}/history          list customer id history
